@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "논문 작성 계획"
             }
-          },
-          {
-            "id": "5a54fa7754528014",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-03-22 19.43.10.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-03-22 19.43.10.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,12 +74,12 @@
               "title": "북마크"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "53773041968989ee",
@@ -194,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +197,10 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "5a54fa7754528014",
+  "active": "e80f43841a58173d",
   "lastOpenFiles": [
-    "EmoNet/논문/논문 작성 계획.md",
     "Excalidraw/Drawing 2026-03-22 19.43.10.excalidraw.md",
+    "EmoNet/논문/논문 작성 계획.md",
     "Excalidraw",
     "무제.base",
     "2026-03-21.md",
