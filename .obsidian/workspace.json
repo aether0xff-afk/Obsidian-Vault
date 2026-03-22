@@ -11,10 +11,14 @@
             "id": "e80f43841a58173d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "EmoNet/논문/논문 작성 계획.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "논문 작성 계획"
             }
           },
           {
@@ -207,9 +211,9 @@
   },
   "active": "5a54fa7754528014",
   "lastOpenFiles": [
+    "EmoNet/논문/논문 작성 계획.md",
     "Excalidraw/Drawing 2026-03-22 19.43.10.excalidraw.md",
     "Excalidraw",
-    "EmoNet/논문/논문 작성 계획.md",
     "무제.base",
     "2026-03-21.md",
     "무제.canvas",
