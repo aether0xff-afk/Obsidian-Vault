@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#용어",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "북마크"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,7 +186,7 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "4b6beb717c111ccf",
+  "active": "e80f43841a58173d",
   "lastOpenFiles": [
     "무제.base",
     "2026-03-21.md",
