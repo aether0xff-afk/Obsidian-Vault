@@ -20,7 +20,7 @@
 		{"id":"01dc7531fab11f1e","type":"text","text":"Encoder","x":-400,"y":-400,"width":250,"height":60},
 		{"id":"0d311aeba6fcbee9","type":"text","text":"stim_vec","x":-80,"y":-400,"width":250,"height":60},
 		{"id":"b55caab37b553cfe","type":"text","text":"Input($x$)","x":-720,"y":-400,"width":250,"height":60},
-		{"id":"3e09cdbd0e52dc41","type":"text","text":"**Note**\n- Input 부터 Output 까지 의 과정을 한 Cycle 이라고 부른다.\n- 뉴런 타입을 없애자!\n- stim_vec = {도파민, 세로토닌, 노르에피네프린, 멜라토닌}\n- K: 전위","x":-480,"y":-110,"width":525,"height":355,"color":"4"}
+		{"id":"3e09cdbd0e52dc41","type":"text","text":"**Note**\n- Input 부터 Output 까지 의 과정을 한 Cycle 이라고 부른다.\n- 뉴런 타입을 없애자!\n- stim_vec = {도파민, 세로토닌, 노르에피네프린, 멜라토닌}\n- K: 전위\n- K_임계: 임계 전위\n- K_remem: 기억 임계 전위","x":-480,"y":-110,"width":525,"height":355,"color":"4"}
 	],
 	"edges":[
 		{"id":"76ae286b19147b02","fromNode":"b55caab37b553cfe","fromSide":"right","toNode":"01dc7531fab11f1e","toSide":"left"},
