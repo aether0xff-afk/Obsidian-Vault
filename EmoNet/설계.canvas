@@ -1,26 +1,26 @@
 {
 	"nodes":[
 		{"id":"0927b7efa489e238","type":"group","x":460,"y":-280,"width":1140,"height":720,"label":"NN"},
-		{"id":"ad362b1e08ea2ac0","type":"group","x":-600,"y":-160,"width":930,"height":100,"label":"Encoder"},
-		{"id":"b55caab37b553cfe","type":"text","text":"Input($x$)","x":-580,"y":-140,"width":250,"height":60},
-		{"id":"01dc7531fab11f1e","type":"text","text":"Encoder","x":-260,"y":-140,"width":250,"height":60},
-		{"id":"710be7b7df90dbcb","type":"text","text":"Nueron\ntype: Value\nK_remem: Value","x":1320,"y":-160,"width":260,"height":100},
-		{"id":"9715f25b92086d3c","type":"text","text":"End_Nueron\ntype: Value\nK_remem: Value\n\n신경망 루프 중단 조건: 모든 뉴런의 평균 $\\Delta$K가 일정 수치 미만 일때","x":1320,"y":220,"width":260,"height":200},
-		{"id":"034f295b1b9a3725","type":"text","text":"H to z converter\nModel: GRU\nz is hidden layer of GRU using H","x":2600,"y":185,"width":180,"height":140},
+		{"id":"a2241e8d662a36b6","type":"group","x":1820,"y":-52,"width":1780,"height":407,"label":"Decoder"},
+		{"id":"ad362b1e08ea2ac0","type":"group","x":-740,"y":-420,"width":930,"height":100,"label":"Encoder"},
+		{"id":"710be7b7df90dbcb","type":"text","text":"Nueron\nK_remem: Value","x":1320,"y":-160,"width":260,"height":100},
+		{"id":"9715f25b92086d3c","type":"text","text":"End_Nueron\nK_remem: Value\n\n신경망 루프 중단 조건: 모든 뉴런의 평균 $\\Delta$K가 일정 수치 미만 일때","x":1320,"y":220,"width":260,"height":200},
+		{"id":"034f295b1b9a3725","type":"text","text":"H to z converter\nModel: Transformer\nz is hidden layer of GRU using H","x":2600,"y":185,"width":200,"height":140},
 		{"id":"e8705b1a6872a1e4","type":"text","text":"z to s Decoder(ML)\n\nLearning Data\n(z, s) (LLM Generated)","x":2900,"y":175,"width":220,"height":160},
-		{"id":"86723873b3bccfbb","type":"text","text":"H_Collector","x":2200,"y":0,"width":160,"height":50},
-		{"id":"bd3faf63c42c837b","type":"text","text":"Branches\n\n\nmerge\n\n","x":1840,"y":-65,"width":250,"height":390},
 		{"id":"851920694f58d179","type":"file","file":"EmoNet/논문/뉴런.md","x":603,"y":480,"width":715,"height":910,"color":"3"},
-		{"id":"fb99456c1a6cd523","type":"text","text":"Start_Nueron\ntype: Value\nK_remem: Value","x":960,"y":-260,"width":260,"height":100},
-		{"id":"edaaf546da6370c8","type":"text","text":"Nueron\ntype: Value\nK_remem: Value","x":830,"y":280,"width":260,"height":100},
-		{"id":"d0fd6da677873614","type":"text","text":"Nueron\ntype: Value\nK_remem: Value","x":700,"y":0,"width":260,"height":100},
+		{"id":"fb99456c1a6cd523","type":"text","text":"Start_Nueron\nK_remem: Value","x":960,"y":-260,"width":260,"height":100},
+		{"id":"edaaf546da6370c8","type":"text","text":"Nueron\nK_remem: Value","x":830,"y":280,"width":260,"height":100},
+		{"id":"d0fd6da677873614","type":"text","text":"Nueron\nK_remem: Value","x":700,"y":0,"width":260,"height":100},
 		{"id":"ec86090b96383ef0","type":"text","text":"start_Nueron","x":480,"y":-140,"width":250,"height":60},
-		{"id":"0d311aeba6fcbee9","type":"text","text":"stim_vec","x":60,"y":-140,"width":250,"height":60},
-		{"id":"10efb9749ec7ba43","type":"file","file":"뉴런_Clustering.md","x":1660,"y":870,"width":400,"height":460,"color":"3"},
-		{"id":"5201b9de7ff4e265","type":"text","text":"DataBase(Memory)","x":-160,"y":-380,"width":250,"height":60},
-		{"id":"3e09cdbd0e52dc41","type":"text","text":"**Note**\n- Input 부터 Output 까지 의 과정을 한 Cycle 이라고 부른다.\n- 뉴런 타입을 없애자!","x":-435,"y":45,"width":525,"height":355,"color":"4"},
 		{"id":"790dcacfaadbe582","type":"text","text":"LLM Output Generating ","x":3220,"y":215,"width":180,"height":80},
-		{"id":"1f36b0bf19f6254e","type":"text","text":"OUT","x":3480,"y":225,"width":84,"height":60}
+		{"id":"1f36b0bf19f6254e","type":"text","text":"Output","x":3480,"y":225,"width":100,"height":60},
+		{"id":"bd3faf63c42c837b","type":"text","text":"Branches\n\n\nmerge해서 하나의 branch로 만듦","x":1840,"y":-32,"width":250,"height":115},
+		{"id":"86723873b3bccfbb","type":"text","text":"H_Collector","x":2300,"y":1,"width":160,"height":50},
+		{"id":"5201b9de7ff4e265","type":"text","text":"DataBase(Memory)","x":1580,"y":-960,"width":250,"height":60},
+		{"id":"01dc7531fab11f1e","type":"text","text":"Encoder","x":-400,"y":-400,"width":250,"height":60},
+		{"id":"0d311aeba6fcbee9","type":"text","text":"stim_vec","x":-80,"y":-400,"width":250,"height":60},
+		{"id":"b55caab37b553cfe","type":"text","text":"Input($x$)","x":-720,"y":-400,"width":250,"height":60},
+		{"id":"3e09cdbd0e52dc41","type":"text","text":"**Note**\n- Input 부터 Output 까지 의 과정을 한 Cycle 이라고 부른다.\n- 뉴런 타입을 없애자!\n- stim_vec = {도파민, 세로토닌, 노르에피네프린, 멜라토닌}\n- K: 전위","x":-480,"y":-110,"width":525,"height":355,"color":"4"}
 	],
 	"edges":[
 		{"id":"76ae286b19147b02","fromNode":"b55caab37b553cfe","fromSide":"right","toNode":"01dc7531fab11f1e","toSide":"left"},
@@ -40,7 +40,9 @@
 		{"id":"7e3a8fee615c09e3","fromNode":"034f295b1b9a3725","fromSide":"right","toNode":"e8705b1a6872a1e4","toSide":"left","label":"z"},
 		{"id":"a9371da65fe2ba0c","fromNode":"e8705b1a6872a1e4","fromSide":"right","toNode":"790dcacfaadbe582","toSide":"left","label":"s"},
 		{"id":"c8b6f75f4fbc0f28","fromNode":"790dcacfaadbe582","fromSide":"right","toNode":"1f36b0bf19f6254e","toSide":"left"},
-		{"id":"a5e429f1650f75b2","fromNode":"851920694f58d179","fromSide":"right","toNode":"10efb9749ec7ba43","toSide":"left"},
-		{"id":"a1a92414c6bbfbec","fromNode":"9715f25b92086d3c","fromSide":"right","toNode":"bd3faf63c42c837b","toSide":"left","label":"Graph Data"}
+		{"id":"a1a92414c6bbfbec","fromNode":"9715f25b92086d3c","fromSide":"right","toNode":"bd3faf63c42c837b","toSide":"left","label":"Graph Data"},
+		{"id":"941bbf804259efc1","fromNode":"bd3faf63c42c837b","fromSide":"right","toNode":"86723873b3bccfbb","toSide":"left","label":"branches"},
+		{"id":"df1f8496b7af121f","fromNode":"9715f25b92086d3c","fromSide":"right","toNode":"5201b9de7ff4e265","toSide":"bottom","label":"K, stim_vec"},
+		{"id":"3054090c651768cb","fromNode":"5201b9de7ff4e265","fromSide":"bottom","toNode":"0d311aeba6fcbee9","toSide":"top","label":"직전 stim_vec"}
 	]
 }
