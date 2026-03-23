@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "d519a45c46987481",
+    "type": "split",
+    "children": [
+      {
+        "id": "5114550bfe733dc2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0224799455caf8e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "EmoNet/논문/논문 작성 계획.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "논문 작성 계획"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cb4c41e37359b7f8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "00ff977ccae94ebf",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "파일 탐색기"
+        }
+      },
+      {
+        "id": "c54d64bf5614ea1c",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "검색"
+        }
+      },
+      {
+        "id": "170f4ec93e5057fd",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "태그"
+        }
+      },
+      {
+        "id": "cd0042563730a30e",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "모든 속성"
+        }
+      },
+      {
+        "id": "c278020d9fede62d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "북마크"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "616d11a1884bee8e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1d1f93aad8aab300",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "EmoNet/논문/논문 작성 계획.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "백링크"
+        }
+      },
+      {
+        "id": "1b3c7c3f641a829f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "EmoNet/논문/논문 작성 계획.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "나가는 링크"
+        }
+      },
+      {
+        "id": "7905d086c0e30bad",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "EmoNet/논문/논문 작성 계획.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "개요"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0224799455caf8e5",
+  "lastOpenFiles": [
+    "옵시디언 관련 팁.md",
+    "Files.base",
+    "EmoNet/논문/뉴런.md",
+    "Excalidraw/Drawing 2026-03-22 19.43.10.excalidraw.md",
+    "Excalidraw",
+    "/옵시디언 관련 팁.md",
+    "/Files.base",
+    "/Excalidraw/Drawing 2026-03-22 19.43.10.excalidraw.md",
+    "/EmoNet/설계.canvas",
+    "/EmoNet/논문/뉴런.md",
+    "/EmoNet/논문/논문 작성 계획.md",
+    "/EmoNet/논문",
+    "/EmoNet",
+    "/Excalidraw",
+    "EmoNet/아이디어/아이디어.canvas",
+    "EmoNet/설계.canvas",
+    "EmoNet/논문/논문 작성 계획.md"
+  ]
+}
