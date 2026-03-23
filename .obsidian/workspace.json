@@ -29,9 +29,9 @@
               "state": {
                 "file": "EmoNet/설계.canvas",
                 "viewState": {
-                  "x": 1400.579999999999,
-                  "y": 144.1500000000001,
-                  "zoom": 0
+                  "x": 1336.1668844895207,
+                  "y": 755.0134784890236,
+                  "zoom": 0.1152469666865121
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EmoNet/논문/논문 작성 계획.md",
+                "file": "EmoNet/논문/뉴런.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "논문 작성 계획 의 백링크"
+              "title": "뉴런 의 백링크"
             }
           },
           {
@@ -194,8 +194,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,8 +216,9 @@
   },
   "active": "23323d944daedfdc",
   "lastOpenFiles": [
-    "EmoNet/논문/뉴런.md",
+    "EmoNet/설계 1.canvas",
     "EmoNet/설계.canvas",
+    "EmoNet/논문/뉴런.md",
     "EmoNet/논문/뉴런.canvas",
     "무제.md",
     "EmoNet/논문/논문 작성 계획.md",
