@@ -3,6 +3,7 @@
 		{"id":"0927b7efa489e238","type":"group","x":360,"y":-440,"width":1700,"height":760,"label":"NN"},
 		{"id":"a2241e8d662a36b6","type":"group","x":2400,"y":-96,"width":1940,"height":407,"label":"Decoder"},
 		{"id":"ad362b1e08ea2ac0","type":"group","x":-880,"y":-320,"width":930,"height":100,"label":"Encoder"},
+		{"id":"2f05dcf287ce2bda","x":3040,"y":400,"width":400,"height":400,"type":"file","file":"s 32차원 기준 예시.md"},
 		{"id":"3e09cdbd0e52dc41","type":"text","text":"**Note**\n- Input 부터 Output 까지 의 과정을 한 Cycle 이라고 부른다.\n- stim_vec = {도파민, 세로토닌, 노르에피네프린, 멜라토닌}\n- K: 전위\n- K_임계: 임계 전위\n- K_remem: 기억 임계 전위\n- H: 감정 히스토리(dominant branch)\n- z: H를 Transformer로 요약함\n- s: 말투 스타일 벡터(차원이 많을 수 록 좋다 다만 그 설정 들은 반드시 근거있는 자료에서 따와야 한다.)","x":-480,"y":-110,"width":525,"height":355,"color":"4"},
 		{"id":"4f7b04d496de9845","type":"file","file":"Pasted image 20260324072408.png","x":-575,"y":830,"width":715,"height":310},
 		{"id":"851920694f58d179","type":"file","file":"EmoNet/논문/뉴런.md","x":300,"y":830,"width":715,"height":980,"color":"3"},
