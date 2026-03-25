@@ -1,9 +1,8 @@
 {
 	"nodes":[
 		{"id":"0927b7efa489e238","type":"group","x":280,"y":-96,"width":1700,"height":760,"label":"NN"},
-		{"id":"a2241e8d662a36b6","type":"group","x":2720,"y":-400,"width":2160,"height":407,"label":"Decoder"},
+		{"id":"a2241e8d662a36b6","type":"group","x":2400,"y":-96,"width":2160,"height":407,"label":"Decoder"},
 		{"id":"ad362b1e08ea2ac0","type":"group","x":-740,"y":-420,"width":930,"height":100,"label":"Encoder"},
-		{"id":"5793b6d5da964166","type":"text","text":"[[실험 해봐야 하는 것들 모음]]\n[[논문 작성 계획]]","x":1570,"y":935,"width":420,"height":205,"color":"5"},
 		{"id":"0d311aeba6fcbee9","type":"text","text":"stim_vec","x":-80,"y":-400,"width":250,"height":60},
 		{"id":"3e09cdbd0e52dc41","type":"text","text":"**Note**\n- Input 부터 Output 까지 의 과정을 한 Cycle 이라고 부른다.\n- stim_vec = {도파민, 세로토닌, 노르에피네프린, 멜라토닌}\n- K: 전위\n- K_임계: 임계 전위\n- K_remem: 기억 임계 전위\n- H: 감정 히스토리(dominant branch)\n- z: H를 Transformer로 요약함\n- s: 말투 스타일 벡터(차원이 많을 수 록 좋다 다만 그 설정 들은 반드시 근거있는 자료에서 따와야 한다.)","x":-480,"y":-110,"width":525,"height":355,"color":"4"},
 		{"id":"01dc7531fab11f1e","type":"text","text":"Encoder","x":-400,"y":-400,"width":250,"height":60},
@@ -25,12 +24,13 @@
 		{"id":"4f7b04d496de9845","type":"file","file":"Pasted image 20260324072408.png","x":-575,"y":830,"width":715,"height":310},
 		{"id":"851920694f58d179","type":"file","file":"EmoNet/논문/뉴런.md","x":300,"y":830,"width":715,"height":980,"color":"3"},
 		{"id":"5201b9de7ff4e265","type":"text","text":"DataBase(Memory)","x":890,"y":-920,"width":250,"height":60},
-		{"id":"bd3faf63c42c837b","type":"text","text":"Branches\n\n\nmerge해서 하나의 branch로 만듦\n\nStore multiple paths\nSelect dominant branch after cycle","x":2720,"y":-216,"width":250,"height":203},
-		{"id":"86723873b3bccfbb","type":"text","text":"H_Collector","x":3360,"y":-125,"width":160,"height":50},
-		{"id":"034f295b1b9a3725","type":"text","text":"H to z Converter\nModel: Transformer\nInput: global history H + dominant branch\nOutput: latent state z","x":3620,"y":-177,"width":240,"height":154},
-		{"id":"e8705b1a6872a1e4","type":"text","text":"z to s Decoder(ML)\n\nLearning Data: \n(z, s) (LLM Generated)","x":3960,"y":-173,"width":220,"height":160},
-		{"id":"790dcacfaadbe582","type":"text","text":"LLM Output Generating ","x":4280,"y":-133,"width":180,"height":80},
-		{"id":"1f36b0bf19f6254e","type":"text","text":"Output","x":4540,"y":-123,"width":100,"height":60}
+		{"id":"5793b6d5da964166","type":"text","text":"[[실험 해봐야 하는 것들 모음]]\n[[논문 작성 계획]]","x":1050,"y":830,"width":420,"height":205,"color":"5"},
+		{"id":"bd3faf63c42c837b","type":"text","text":"Branches\n\n\nmerge해서 하나의 branch로 만듦\n\nStore multiple paths\nSelect dominant branch after cycle","x":2400,"y":88,"width":250,"height":203},
+		{"id":"86723873b3bccfbb","type":"text","text":"H_Collector","x":3040,"y":179,"width":160,"height":50},
+		{"id":"034f295b1b9a3725","type":"text","text":"H to z Converter\nModel: Transformer\nInput: global history H + dominant branch\nOutput: latent state z","x":3300,"y":127,"width":240,"height":154},
+		{"id":"e8705b1a6872a1e4","type":"text","text":"z to s Decoder(ML)\n\nLearning Data: \n(z, s) (LLM Generated)","x":3640,"y":131,"width":220,"height":160},
+		{"id":"790dcacfaadbe582","type":"text","text":"LLM Output Generating ","x":3960,"y":171,"width":180,"height":80},
+		{"id":"1f36b0bf19f6254e","type":"text","text":"Output","x":4220,"y":181,"width":100,"height":60}
 	],
 	"edges":[
 		{"id":"76ae286b19147b02","fromNode":"b55caab37b553cfe","fromSide":"right","toNode":"01dc7531fab11f1e","toSide":"left"},
@@ -63,6 +63,7 @@
 		{"id":"965b05156b3fc9bd","fromNode":"52bc2d5b796c4737","fromSide":"right","toNode":"9715f25b92086d3c","toSide":"left"},
 		{"id":"2d8b9b75095ed907","fromNode":"8851d1d78487ff6e","fromSide":"right","toNode":"9715f25b92086d3c","toSide":"left"},
 		{"id":"fc831f8f759f4497","fromNode":"06787aaabd4b7725","fromSide":"right","toNode":"9715f25b92086d3c","toSide":"left"},
-		{"id":"268ca86fd7e09088","fromNode":"b55caab37b553cfe","fromSide":"right","toNode":"790dcacfaadbe582","toSide":"top","label":"INPUT"}
+		{"id":"0f7ed254b34d6c4f","fromNode":"b55caab37b553cfe","fromSide":"right","toNode":"5201b9de7ff4e265","toSide":"left","label":"Input_Msg"},
+		{"id":"53434947f7bda65e","fromNode":"5201b9de7ff4e265","fromSide":"right","toNode":"790dcacfaadbe582","toSide":"top","label":"지금 까지의 Input_Msg 에 K 가중 + 사이클 넘버로 감쇠"}
 	]
 }
