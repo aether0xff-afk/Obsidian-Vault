@@ -15,7 +15,7 @@
 		{"id":"1656b0bb4af0ce3d","type":"text","text":"Nueron\nK_remem: Value","x":800,"y":45,"width":260,"height":80},
 		{"id":"06787aaabd4b7725","type":"text","text":"Nueron\nK_remem: Value","x":1340,"y":45,"width":260,"height":80},
 		{"id":"034f295b1b9a3725","type":"text","text":"H to z Converter\nModel: Transformer\nInput: global history H + dominant branch\nOutput: latent state z","x":3300,"y":21,"width":240,"height":154},
-		{"id":"2f05dcf287ce2bda","type":"file","file":"s 32차원 기준 예시.md","x":3040,"y":400,"width":400,"height":400},
+		{"id":"2f05dcf287ce2bda","type":"file","file":"EmoNet/s 32차원 기준 예시.md","x":3040,"y":400,"width":400,"height":400},
 		{"id":"ec86090b96383ef0","type":"text","text":"Start_Nueron\nK_remem: Value","x":380,"y":-300,"width":250,"height":60},
 		{"id":"710be7b7df90dbcb","type":"text","text":"Nueron\nK_remem: Value","x":800,"y":-403,"width":260,"height":80},
 		{"id":"b8353707a06b2db8","type":"text","text":"Nueron\nK_remem: Value","x":800,"y":-293,"width":260,"height":80},
