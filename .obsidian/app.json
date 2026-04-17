@@ -2,10 +2,11 @@
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "Tabloid",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
-  "spellcheck": false
+  "spellcheck": false,
+  "readableLineLength": false
 }
